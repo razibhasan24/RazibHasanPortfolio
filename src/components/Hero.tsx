@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button variant="tech" size="lg" className="group">
                 <Download className="w-5 h-5 transition-transform group-hover:translate-y-1" />
-                <a href=""> Download CV</a>
+                <a href="/public/Razib Hasan CV.pdf"> Download CV</a>
               </Button>
               <Button variant="tech" size="lg">
                 Let's Talk
@@ -56,7 +56,7 @@ const Hero = () => {
 
             <div className="flex gap-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/RazibHasan24"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,7 +71,7 @@ const Hero = () => {
                 <FaLinkedin className="text-white hover:text-blue-500 w-6 h-6" />
               </a>
 
-              <a href="mailto:youremail@example.com">
+              <a href="mailto:razibhasan2403@gmail.com">
                 <FaEnvelope className="text-white hover:text-blue-500 w-6 h-6" />
               </a>
             </div>

@@ -7,18 +7,11 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
+import pos from "../assets/pos Project.png";
+import Laravel from "../assets/Laravel.png";
 
 const Works = () => {
   const works = [
-    {
-      title: "E-Commerce Platform",
-      description:
-        "Full-stack e-commerce solution with React, Node.js, and MongoDB",
-      image: "/lovable-uploads/76dba6d2-be7e-43dd-b366-539e84ca6b38.png",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveLink: "#",
-      githubLink: "#",
-    },
     {
       title: "Portfolio Website",
       description: "Responsive portfolio website with modern animations",
@@ -27,13 +20,24 @@ const Works = () => {
       liveLink: "#",
       githubLink: "#",
     },
+
     {
-      title: "Task Management App",
+      title: "Retail Pos software",
       description:
-        "Collaborative task management application with real-time updates",
-      image: "/lovable-uploads/76dba6d2-be7e-43dd-b366-539e84ca6b38.png",
-      technologies: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
-      liveLink: "#",
+        "Full-stack shop management solution with Core_PHP,JavaScript,MySql",
+      image: pos,
+      technologies: ["Core_PHP", "JavaScript", "MySql"],
+      liveLink: "http://razib.intelsofts.com/projects/core/",
+      githubLink: "#",
+    },
+
+    {
+      title: "Money Exchange Software",
+      description: "money transfer and  with real-time updates",
+      image: Laravel,
+      technologies: ["laravel framework", "MySql", "JavaScript"],
+      liveLink:
+        "http://razib.intelsofts.com/projects/laravel/update_mex/public/login",
       githubLink: "#",
     },
     {
