@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 import pos from "../assets/pos Project.png";
 import Laravel from "../assets/Laravel.png";
+import Vue from "../assets/Laravel_vue.png";
 
 const Works = () => {
   const works = [
@@ -28,7 +29,6 @@ const Works = () => {
       image: pos,
       technologies: ["Core_PHP", "JavaScript", "MySql"],
       liveLink: "http://razib.intelsofts.com/projects/core/",
-      githubLink: "#",
     },
 
     {
@@ -38,15 +38,16 @@ const Works = () => {
       technologies: ["laravel framework", "MySql", "JavaScript"],
       liveLink:
         "http://razib.intelsofts.com/projects/laravel/update_mex/public/login",
-      githubLink: "#",
+      githubLink:
+        "https://github.com/razibhasan24/MoneyExchange_Soft_Latest1.0",
     },
     {
-      title: "Weather Dashboard",
-      description: "Weather application with location-based forecasts",
-      image: "/lovable-uploads/fcb4fb7d-fe51-40cb-805a-b9b8ac90ff95.png",
-      technologies: ["React", "OpenWeather API", "Chart.js"],
-      liveLink: "#",
-      githubLink: "#",
+      title: "Laravel and Vue",
+      description: "laravel backend and vue front end",
+      image: Vue,
+      technologies: ["Vue.js", "Fetch API", "TypeScripts.js"],
+      liveLink: "http://razib.intelsofts.com/projects/laravel-vue/",
+      githubLink: "https://github.com/razibhasan24/Laravel_Vue",
     },
     {
       title: "Weather Dashboard",
@@ -130,11 +131,11 @@ const Works = () => {
                 <div className="flex gap-3">
                   <Button variant="outline" size="sm" className="flex-1">
                     <ExternalLink className="w-4 h-4 mr-2" />
-                    Live Demo
+                    <a href={work.liveLink}> Live Demo</a>
                   </Button>
                   <Button variant="ghost" size="sm" className="flex-1">
                     <Github className="w-4 h-4 mr-2" />
-                    Code
+                    <a href={work.githubLink}>Code</a>
                   </Button>
                 </div>
               </CardContent>

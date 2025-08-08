@@ -48,7 +48,8 @@ const Hero = () => {
                 <a href="/public/Razib Hasan CV.pdf"> Download CV</a>
               </Button>
               <Button variant="tech" size="lg">
-                Let's Talk
+                {/* <a href="http://localhost:5173/#contact">Let's Contact</a> */}
+                <a href="http://razib.intelsofts.com/#contact">Let's Talk</a>
               </Button>
             </div>
 
@@ -64,14 +65,18 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/md-razib-hasan-4b4030378/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="text-white hover:text-blue-500 w-6 h-6" />
               </a>
 
-              <a href="mailto:razibhasan2403@gmail.com">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=razibhasan2403@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaEnvelope className="text-white hover:text-blue-500 w-6 h-6" />
               </a>
             </div>
@@ -80,11 +85,11 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="flex-1 flex justify-center lg:justify-end fade-in-up">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 floating-animation">
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-2 border-primary/30 floating-animation">
                 <img
-                  src="/lovable-uploads/76dba6d2-be7e-43dd-b366-539e84ca6b38.png"
+                  src="/image-uploads/RazibHasan2.png"
                   alt="Developer Profile"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover mt-2" // adds margin-top
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary rounded-full animate-pulse"></div>

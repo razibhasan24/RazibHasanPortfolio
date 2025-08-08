@@ -74,17 +74,17 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-6">
             <Card className="card-glow bg-card/50 backdrop-blur-sm border-border/50 p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-2">3+</div>
+              <div className="text-3xl font-bold text-primary mb-2">1+</div>
               <div className="text-muted-foreground">Years Experience</div>
             </Card>
 
             <Card className="card-glow bg-card/50 backdrop-blur-sm border-border/50 p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-2">50+</div>
+              <div className="text-3xl font-bold text-primary mb-2">10+</div>
               <div className="text-muted-foreground">Projects Completed</div>
             </Card>
 
             <Card className="card-glow bg-card/50 backdrop-blur-sm border-border/50 p-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-2">25+</div>
+              <div className="text-3xl font-bold text-primary mb-2">20+</div>
               <div className="text-muted-foreground">Happy Clients</div>
             </Card>
 

@@ -39,11 +39,19 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Custom portfolio colors */
-    --tech-gradient: linear-gradient(135deg, hsl(180 100% 50%), hsl(200 100% 60%));
-    --hero-gradient: linear-gradient(135deg, hsl(220 27% 8% / 0.9), hsl(220 24% 12% / 0.8));
+    --tech-gradient: linear-gradient(
+      135deg,
+      hsl(180 100% 50%),
+      hsl(200 100% 60%)
+    );
+    --hero-gradient: linear-gradient(
+      135deg,
+      hsl(220 27% 8% / 0.9),
+      hsl(220 24% 12% / 0.8)
+    );
     --card-glow: 0 0 30px hsl(180 100% 50% / 0.1);
     --text-glow: 0 0 20px hsl(180 100% 50% / 0.3);
-    
+
     /* Animation variables */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -111,7 +119,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    background-image: url('/lovable-uploads/fcb4fb7d-fe51-40cb-805a-b9b8ac90ff95.png');
+    background-image: url("/image-uploads/background-image.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -119,7 +127,7 @@ All colors MUST be HSL.
   }
 
   body::before {
-    content: '';
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
@@ -157,8 +165,13 @@ All colors MUST be HSL.
   }
 
   @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
 
   .slide-in-left {
